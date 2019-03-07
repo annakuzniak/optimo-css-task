@@ -1,70 +1,71 @@
-@media all and (min-width:901px)
-{
-	.container{width:900px;}
-	.container3{float:right;}
-    .container3{background-color:white;}
-   
+@media all and (min-width:901px) {
+    .container {
+        width: 900px;
+    }
+    .container3 {
+        float: right;
+    }
+    .container3 {
+        background-color: white;
+    }
 }
-@media all and (min-width:583px) and (max-width:900px)
-{	
-    .container2{
-        transform:translate(-720px,-100px);
-        position:absolute;
+
+@media all and (min-width:583px) and (max-width:900px) {
+    .container2 {
+        transform: translate(-720px, -100px);
+        position: absolute;
         margin-top: 550px;
         margin-left: 40px;
     }
-    .container3 .big-rectangle{
+    .container3 .big-rectangle {
         background-color: pink;
-        float:right;
-        transform:translate(-375px, -550px);
+        float: right;
+        transform: translate(-375px, -550px);
         height: 700px;
-    } 
+    }
 }
-@media all and (max-width:582px) {
 
+@media all and (max-width:582px) {
     .container1 .diamond {
         position: initial;
         width: 90px;
         height: 90px;
     }
-
-    .container1 > #diamond1 {
-        top:100px;
+    .container1>#diamond1 {
+        top: 100px;
     }
-    .container1> #diamond2 {
-        left:210px;
+    .container1>#diamond2 {
+        left: 210px;
     }
-
     .container1 {
-        transform:translate(-40px, -28px);
+        transform: translate(-40px, -28px);
     }
-   
     .container2 .equal-rectangle {
         position: initial;
     }
     .container2 .circle {
         position: initial;
-    } 
-
-    .container2 .equal-rectangle{
-        transform:translate(-50px,150px);
+    }
+    .container2 .equal-rectangle {
+        transform: translate(-50px, 150px);
         left: 90px;
         width: 30%;
-        height: 10%;;
+        height: 10%;
+        ;
     }
-
     .container2 .circle {
-        transform:translate(50px,360px);
+        transform: translate(50px, 360px);
         width: 80px;
-        height: 80px;       
+        height: 80px;
     }
-
-    .container3 .big-rectangle{
-        transform:translate(20px,380px);
-        width: 150px;;
-        height: 340px;;
-        margin-left:15%;
-        display:block;
+    .container3 .big-rectangle {
+        transform: translate(20px, 380px);
+        width: 150px;
+        ;
+        height: 340px;
+        ;
+        margin-left: 15%;
+        display: block;
         background-color: #0f43b4;
         position: initial;
         text-align: center;
@@ -75,27 +76,32 @@
     }
 }
 
-html, body {
-    margin:0;
-    padding:0;
+html,
+body {
+    margin: 0;
+    padding: 0;
     width: 100vw;
     height: 100vh;
     background-color: #216b0f;
 }
+
 .container {
     min-width: 901px;
     max-width: 1600px;
 }
-.container1, .container2, .container3 {
+
+.container1,
+.container2,
+.container3 {
     width: 33.3%;
     height: 33.3%;
     position: relative;
 }
 
 .nav-rectangle {
-    height:90px;
-    width:100%;
-    background-color:#7c7c07;
+    height: 90px;
+    width: 100%;
+    background-color: #7c7c07;
     border: 4px solid #000;
     position: absolute;
     box-sizing: border-box;
@@ -103,9 +109,9 @@ html, body {
 }
 
 .diamond {
-    float:left;
+    float: left;
     width: 150px;
-    height: 150px; 
+    height: 150px;
     background: rgb(226, 53, 53);
     border: 3px solid #000;
     /* Rotate */
@@ -120,14 +126,14 @@ html, body {
     -ms-transform-origin: 0 100%;
     -o-transform-origin: 0 100%;
     transform-origin: 0 100%;
-    left: 260px;   
-    top:155px; 
+    left: 260px;
+    top: 155px;
 }
 
 .container1>#diamond1 {
     position: absolute;
     margin-top: 150px;
-    margin-left: -150px;    
+    margin-left: -150px;
 }
 
 .container1>#diamond2 {
@@ -135,18 +141,19 @@ html, body {
 }
 
 .container2 {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .equal-rectangle {
     height: 15px;
     width: 200px;
     display: flex;
     align-items: center;
-    background-color:#0f43b4;
+    background-color: #0f43b4;
     border: 3px solid #000;
-    top:230px;
+    top: 230px;
     left: 700px;
 }
 
@@ -159,15 +166,15 @@ html, body {
     position: absolute;
 }
 
-.circle{
+.circle {
     display: inline-block;
     position: absolute;
     width: 130px;
     height: 130px;
-    background: rgb(38, 141, 155); 
+    background: rgb(38, 141, 155);
     border: 3px solid #000;
-    -moz-border-radius: 50%; 
-    -webkit-border-radius: 50%; 
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius: 50%;
     top: 200px;
     left: 980px;
@@ -178,7 +185,7 @@ html, body {
     position: absolute;
     height: 800px;
     width: 350px;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     border: 3px solid #000;
     top: 125px;
     left: 850px;
